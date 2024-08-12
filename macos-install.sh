@@ -29,7 +29,7 @@ if ! command -v brew &>/dev/null; then
     if [ -x "/opt/homebrew/bin/brew" ]; then
         # For Apple Silicon Macs
         echo "Configuring Homebrew in PATH for Apple Silicon Mac..."
-        export PATH="/opt/homebrew/bin:$PATH"
+        echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
     fi
 else
     echo "Homebrew is already installed."
