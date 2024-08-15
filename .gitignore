@@ -2,3 +2,4 @@ ollama
 ollama/*
 venv/*
 pyvenv.cfg
+.DS_Store

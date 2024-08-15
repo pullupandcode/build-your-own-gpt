@@ -4,7 +4,6 @@
 # And also installs MacOS Software
 # And also installs Homebrew Packages and Casks (Apps)
 # And also sets up VS Code
-# And also sets up Sublime Text
 ############################
 
 #!/usr/bin/env zsh
